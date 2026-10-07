@@ -1,33 +1,17 @@
 ---
-title: "Few-Shot, Language-Agnostic Keyword Spotting"
-excerpt: "A keyword-spotting system that recognises new spoken keywords from a few examples, in any language. Winning solution at the Smart India Hackathon 2024 Grand Finale (NTRO, problem statement 1680), later extended from 10 to 440 keyword classes with under 10% accuracy loss relative to fully supervised baselines."
+title: "Few-Shot, Language-Agnostic Keyword Spotting (Smart India Hackathon 2024)"
+excerpt: "Winning team, Smart India Hackathon 2024 Grand Finale, for a problem statement set by the National Technical Research Organisation (NTRO) on detecting user-defined spoken keywords in any language from only a few examples."
 collection: portfolio
-order: 5
+order: 4
 permalink: /portfolio/few-shot-keyword-spotting
 ---
 
-**Recognition:** Winner, Smart India Hackathon 2024 Grand Finale (National Technical Research Organisation, problem statement 1680).
-**Follow-up research:** October – December 2025.
-**Reference documents:** [Falkon_SIH](https://github.com/MAUK9086/Falkon_SIH)
+**Recognition:** Winner, Smart India Hackathon 2024 Grand Finale, problem statement 1680, set by the National Technical Research Organisation (NTRO), Government of India.
 
-Problem
+Problem area
 ------
-The task is to detect user-defined keywords in audio streams that may be in any language, including low-resource ones, given only a handful of recorded examples per keyword. Standard keyword-spotting models need many labelled utterances per keyword and a fixed vocabulary.
+The problem statement asked for a system that detects user-defined spoken keywords in audio streams. The streams may be in any language, including low-resource ones, and only a handful of recorded examples are available per keyword. This combines two hard settings in speech processing: *few-shot* learning (new keywords without large labelled datasets) and *language-agnostic* recognition (no dependence on a particular language's acoustic or lexical model).
 
-Phase 1: hackathon system (2024)
+Outcome
 ------
-- **Audio features as an image:** clips are resampled to 16 kHz and fixed to 3 s. A Mel spectrogram, spectral centroid and chromagram are stacked as three channels, so an ImageNet-pre-trained ResNet-50 can be fine-tuned with only its last layers trainable.
-- **Few-shot weight generator:** to add a new keyword without retraining, its classifier weights are generated from the few support examples. The generator averages their features with a learnable scale and attends over existing base-class weights (cosine attention). It is trained in two stages with simulated "novel" classes. This follows the dynamic few-shot learning approach of Gidaris & Komodakis (2018).
-
-```python
-resnet = ResNet50(weights='imagenet', include_top=False, input_tensor=Input(shape=input_shape))
-# Freeze all layers except the last few
-for layer in resnet.layers[:-10]:
-    layer.trainable = False
-```
-
-Phase 2: scaling study (2025)
-------
-- **Question:** can a language-agnostic few-shot spotter scale from 10 to hundreds of classes under extreme data scarcity in multilingual streams?
-- **Model:** a Transformer encoder over MFCC features, with voice-activity detection (VAD) to segment speech from continuous streams.
-- **Outcome:** scaled from 10 to **440 keyword classes** (44×) with **under 10%** accuracy degradation relative to fully supervised baselines.
+Our team's solution placed first at the Grand Finale. The problem statement was set by a government technical agency, so technical details of the solution are not disclosed here.

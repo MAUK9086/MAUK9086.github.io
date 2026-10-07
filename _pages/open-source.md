@@ -45,7 +45,7 @@ scikit-bio
 | PR | Title | Status |
 |---|---|---|
 | [#2427](https://github.com/scikit-bio/scikit-bio/pull/2427) | Lazy-load `requests` and `h5py` to reduce import time | Merged (Apr 2026) |
-| [#2425](https://github.com/scikit-bio/scikit-bio/pull/2425) | Fix `multi_replace` output type for pandas 3.0 `apply` | Closed |
+| [#2425](https://github.com/scikit-bio/scikit-bio/pull/2425) | Fix `multi_replace` output type for pandas 3.0 `apply` | In progress |
 
 - **Import latency (#2427).** Moved the optional `requests` and `h5py` imports into the functions that use them, so `import skbio` no longer loads them. Mean import time fell from **112.7 ms to 70.3 ms (−37%)** over 5 fresh-process runs, and all 368 I/O tests pass. This is a step towards the project's broader import-time issue (#2170).
 
@@ -53,7 +53,7 @@ Keras Hub
 ------
 | PR | Title | Status |
 |---|---|---|
-| [#2555](https://github.com/keras-team/keras-hub/pull/2555) | Fix Moonshine LiteRT export: handle boolean masks in test runner | Open |
+| [#2555](https://github.com/keras-team/keras-hub/pull/2555) | Fix Moonshine LiteRT export: handle boolean masks in test runner | In progress |
 | [#2551](https://github.com/keras-team/keras-hub/pull/2551) | Fix default masking warnings in `TransformerDecoder` and `PositionEmbedding` | Open |
 | [#2550](https://github.com/keras-team/keras-hub/pull/2550) | Fix `SparseCategoricalCrossentropy` crash by ignoring −1 labels | Open |
 
