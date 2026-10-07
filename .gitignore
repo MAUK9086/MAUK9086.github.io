@@ -24,3 +24,4 @@ package-lock.json
 
 # Private working notes (not for the public repo)
 MISSING_ITEMS.md
+_private/

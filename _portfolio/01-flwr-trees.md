@@ -55,5 +55,3 @@ Benchmark settings: 5 clients, 20 trees, 3 rounds, 32 histogram bins. The compar
 <img src="/images/flwr-trees-round1-payload.png" alt="Round-1 upload payload, bagging vs histogram aggregation" width="85%">
 
 *Figure. First-round upload size per strategy. Data: `benchmarks/results.json` in the repository.*
-
-**Limitations.** The saving applies to the first (histogram) round. Histogram aggregation adds one extra round, so over a full run it currently sends more data in total than bagging. Experiments use in-process simulation of clients rather than a multi-machine deployment.

@@ -25,16 +25,15 @@ Education
 
 Research and professional experience
 ======
-* **Machine Learning Intern**, Institute of Liver and Biliary Sciences (ILBS), New Delhi. Jan 2026 – present
-  * Built a pipeline that merges and normalises longitudinal patient records from 10+ clinical sources for the "Walk for Life" multi-modal NCD detection project.
-  * Developed contactless vital-sign estimation (heart rate, HRV, SpO2) from real-time webcam video using rPPG. Investigating the correlation of facial blood-flow dynamics with blood pressure.
+* **Machine Learning Intern**, "Walk for Life" project, Institute of Liver and Biliary Sciences (ILBS), New Delhi. Jan 2026 – present
+  * Project leads: Prof. (Dr.) Shiv Kumar Sarin (PI; Director, ILBS) and Dr. Harsh Vardhan T. (Co-PI; Associate Professor, Hepatology)
+  * Built a pipeline that merges and normalises longitudinal patient records from 10+ clinical sources.
+  * Developed real-time contactless vital-sign estimation (heart rate, HRV, SpO2) from webcam video using rPPG.
   * Built low-latency IPC mechanisms and data-validation constraints for concurrent telemetry streams.
-* **Research project: Few-shot language-agnostic keyword spotting.** Oct 2025 – Dec 2025
-  * Scaled a Transformer-encoder keyword spotter (MFCC features, voice-activity detection) from 10 to 440 classes under extreme data scarcity, with under 10% accuracy degradation relative to fully supervised baselines. [Details](/portfolio/few-shot-keyword-spotting)
 * **Open-source contributor**: scikit-learn, scikit-bio, Keras Hub. Jan 2026 – present
   * Five merged pull requests, including a ≈24× speed-up of FastICA's deflation path (scikit-learn #33269) and a 37% reduction in scikit-bio import time (#2427). [Details](/open-source/)
 
-Publications and manuscripts
+Publications and working papers
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -46,9 +45,10 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
 
-Research software
+Research software and projects
 ======
 * **flwr-trees**: federated learning for Random Forest, XGBoost and gradient-boosted trees with a scikit-learn API, built on Flower. Published on [PyPI](https://pypi.org/project/flwr-trees/). [Details](/portfolio/flwr-trees)
+* **Dyadic EEG representation learning with CEBRA** (independent project, 2026): joint embeddings of speaker and listener EEG; 0.967 k-NN decoding of affective condition, with chance-level shuffle controls. [Details](/portfolio/dyadic-eeg-cebra)
 * **LUFY**: retrieval-augmented legal-document assistant (FastAPI, ChromaDB, BM25 + dense hybrid retrieval, Docker). [Details](/portfolio/lufy-legal-rag)
 
 Honours and awards

@@ -23,14 +23,14 @@ repository               : "MAUK9086/MAUK9086.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Mohammad Ahmadullah Khan"
   pronouns         : # example: "she/her"  
   bio              : "Undergraduate researcher in machine learning. B.Tech Computer Engineering, Jamia Millia Islamia; B.S. Data Science, IIT Madras."
   location         : "New Delhi, India"
   employer         : "Jamia Millia Islamia"
   uri              : # URL
-  email            : "mohammad.ahmadullah.professional@gmail.com"
+  email            : "maukhan9086@gmail.com"
 
   # Academic websites
   academia         : # URL
@@ -38,7 +38,7 @@ author:
   googlescholar    : # URL - add your Google Scholar profile once created
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # URL - add your ORCID iD once created
+  orcid            : "https://orcid.org/0009-0004-8404-0735"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
@@ -85,7 +85,7 @@ author:
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
   manuscripts:
-    title: 'Manuscripts Under Review'
+    title: 'Working Papers'
   conferences:
     title: 'Conference Presentations'
   theses:

@@ -1,13 +1,12 @@
 ---
 title: "Dyadic EEG Representation Learning with CEBRA"
-excerpt: "Learning joint neural embeddings of two people in conversation from hyperscanning EEG. Hybrid CEBRA embeddings decode affective condition with 0.967 k-NN accuracy, against chance-level shuffle controls. Google Summer of Code 2026 proposal and pre-task (ML4SCI)."
+excerpt: "Learning joint neural embeddings of two people in conversation from hyperscanning EEG. Hybrid CEBRA embeddings decode affective condition with 0.967 k-NN accuracy, while shuffle controls stay at chance. Independent project, 2026."
 collection: portfolio
-order: 4
+order: 3
 permalink: /portfolio/dyadic-eeg-cebra
 ---
 
-**Context:** Google Summer of Code 2026 proposal to ML4SCI (NeuroDyads project; mentors Dr. Evie Malaia, University of Alabama, and Dr. Brendan Ames, University of Southampton), March 2026.
-**Pre-task notebook:** [GSOC_NeuroDyad_Proposal](https://github.com/MAUK9086/GSOC_NeuroDyad_Proposal/blob/main/gsoc-neurodyad-final.ipynb)
+**Context:** independent project, 2026. Code is available on request.
 
 Idea
 ------
@@ -20,7 +19,7 @@ Pipeline
 - **Joint representation:** listener and speaker channels are concatenated into one 128-channel input (75,431 time points), then embedded with three CEBRA variants: *time-only*, *behaviour (label)-driven* and *hybrid*.
 - **Evaluation:** k-NN decoding (k = 5, 5-fold CV) of affective condition, goodness-of-fit, and two controls (shuffled labels and shuffled time). Further analyses split decoding by participant and by frequency band.
 
-Results (pre-task)
+Results
 ------
 | Embedding | k-NN accuracy | R² |
 |---|---|---|
@@ -28,10 +27,10 @@ Results (pre-task)
 | Behaviour | 0.948 | 0.818 |
 | Hybrid | **0.967** | **0.878** |
 
-Both controls fall to chance: shuffled labels give 0.499 ± 0.007, and shuffling the speaker's time axis, which breaks inter-brain alignment, gives 0.515. Decoding therefore depends on the true label structure and on the temporal coupling between the two recordings. The hybrid model varies with the random seed: shorter re-runs (3,000 iterations, 3 seeds) gave 0.898 ± 0.013. The joint embedding (0.843) decoded better than either participant alone (listener 0.624, speaker 0.821). Delta and gamma bands carried most of the information.
+Both controls fall to chance: shuffled labels give 0.499 ± 0.007, and shuffling the speaker's time axis, which breaks inter-brain alignment, gives 0.515. Decoding therefore depends on the true label structure and on the temporal coupling between the two recordings. The joint embedding (0.843) decoded better than either participant alone (listener 0.624, speaker 0.821). Delta and gamma bands carried most of the information.
 
 <img src="/images/cebra-affect-decoding.png" alt="k-NN decoding accuracy of CEBRA variants and shuffle controls" width="85%">
 
 *Figure. Affect decoding accuracy of the CEBRA variants compared with shuffle controls (dashed line = chance).*
 
-The proposal sets out a reproducible pipeline that extends this to multiple dyads, with embedding consistency across dyads and the cross-entropy test for comparing embeddings.
+**Next steps:** extend the pipeline to multiple dyads, test whether embeddings are consistent across dyads, and compare embeddings with a statistical test (the cross-entropy test).

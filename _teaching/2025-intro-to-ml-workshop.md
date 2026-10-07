@@ -1,11 +1,11 @@
 ---
 title: "Introduction to Machine Learning Workshop"
 collection: teaching
-type: "Workshop, Instructor"
+type: "Workshop, Co-instructor"
 permalink: /teaching/intro-to-ml-workshop
-venue: "IEEE Student Branch, Jamia Millia Islamia"
+venue: "W3B, Jamia Millia Islamia"
 date: 2025-01-01
 location: "New Delhi, India"
 ---
 
-Designed and delivered a comprehensive introductory machine-learning curriculum to 150+ undergraduate students.
+One of a team of instructors who taught an introductory machine-learning workshop to 150+ undergraduate students.
