@@ -79,5 +79,5 @@ Certifications
 
 Service and leadership
 ======
-* General Secretary, IEEE Student Branch, Jamia Millia Islamia: led a team of 15+ to run 10+ technical workshops for 1,200+ students
+* General Secretary, IEEE Student Branch, Jamia Millia Islamia (Mar 2024 – present): led a team of 15+ to run 10+ technical workshops for 1,200+ students
 * Chief Arbiter, Piper Chess Club: organised and adjudicated tournaments for 30+ participants
