@@ -1,14 +1,15 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Research & Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
+<p>Research projects and research software, most recent and most substantial first. Each entry describes the problem, method, and results; code is linked where it is public.</p>
 
-{% for post in site.portfolio %}
+{% assign items = site.portfolio | sort: "order" %}
+{% for post in items %}
   {% include archive-single.html %}
 {% endfor %}
-
