@@ -20,6 +20,14 @@ System
 - **Long documents:** documents that fit the context window are processed in a single call. Longer ones use concurrent map-reduce with rate-limit-aware retries.
 - **Engineering:** a FastAPI service that pre-loads the embedding and re-ranker models at startup, packaged with Docker and covered by a 31-test pytest suite. Documents are processed in memory and never stored.
 
+<img src="/images/lufy-qa-citations.jpg" alt="LUFY question answering with retrieved source passages" width="100%">
+
+*Figure 1. Question answering on a sample referral agreement: the answer is followed by the retrieved passages it is grounded in.*
+
+<img src="/images/lufy-summary.jpg" alt="LUFY plain-language summary of a referral agreement" width="100%">
+
+*Figure 2. Plain-language summary of the same agreement: parties, main points, key figures, and what it means for the reader.*
+
 Why hybrid retrieval
 ------
 Dense retrieval finds paraphrases but can miss rare exact terms and clause references. BM25 finds exact terms but misses paraphrases. Reciprocal rank fusion combines the two rankings without tuning score scales, and the section-header boost keeps retrieved passages in their legal context. The repository's `DESIGN.md` discusses these design choices in detail.
