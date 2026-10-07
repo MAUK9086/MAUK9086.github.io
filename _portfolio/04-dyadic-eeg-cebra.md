@@ -21,6 +21,7 @@ Pipeline
 
 Results
 ------
+
 | Embedding | k-NN accuracy | R² |
 |---|---|---|
 | Time-only | 0.490 | −0.478 |

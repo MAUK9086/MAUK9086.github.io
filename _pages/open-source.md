@@ -9,6 +9,7 @@ I contribute performance, correctness and documentation fixes to the scientific 
 
 scikit-learn
 ------
+
 | PR | Title | Status |
 |---|---|---|
 | [#33269](https://github.com/scikit-learn/scikit-learn/pull/33269) | Vectorize `_logcosh` in FastICA | Merged (Apr 2026) |
@@ -42,6 +43,7 @@ scikit-learn
 
 scikit-bio
 ------
+
 | PR | Title | Status |
 |---|---|---|
 | [#2427](https://github.com/scikit-bio/scikit-bio/pull/2427) | Lazy-load `requests` and `h5py` to reduce import time | Merged (Apr 2026) |
@@ -51,6 +53,7 @@ scikit-bio
 
 Keras Hub
 ------
+
 | PR | Title | Status |
 |---|---|---|
 | [#2555](https://github.com/keras-team/keras-hub/pull/2555) | Fix Moonshine LiteRT export: handle boolean masks in test runner | In progress |
