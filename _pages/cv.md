@@ -48,7 +48,7 @@ Talks
 Research software and projects
 ======
 * **flwr-trees**: federated learning for Random Forest, XGBoost and gradient-boosted trees with a scikit-learn API, built on Flower. Published on [PyPI](https://pypi.org/project/flwr-trees/). [Details](/portfolio/flwr-trees)
-* **Dyadic EEG representation learning with CEBRA** (independent project, 2026): joint embeddings of speaker and listener EEG; 0.967 k-NN decoding of affective condition, with chance-level shuffle controls. [Details](/portfolio/dyadic-eeg-cebra)
+* **Brain-to-Brain Decoder: dyadic EEG representation learning with CEBRA** (independent study, 2026): joint embeddings of speaker and listener EEG; 0.967 k-NN decoding of affective condition, with chance-level shuffle controls. [Details](/portfolio/dyadic-eeg-cebra) · [Report (PDF)](/files/Brain_to_Brain_Decoder_Khan_2026.pdf)
 * **LUFY**: retrieval-augmented legal-document assistant (FastAPI, ChromaDB, BM25 + dense hybrid retrieval, Docker). [Details](/portfolio/lufy-legal-rag)
 
 Honours and awards
