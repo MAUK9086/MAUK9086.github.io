@@ -1,13 +1,13 @@
 ---
 title: "La Espada: Frame-Level Ball Possession from Football Tracking Data"
-excerpt: "A solo entry to More than a Hack 2027 (Metrica Sports &times; FC Barcelona) that labels every frame of a match as home possession, away possession or dead ball. Rule evidence and a three-model temporal convolutional network ensemble, trained only on external matches, are decoded by an event-gated Viterbi pass; leave-one-match-out spellF1 is 0.759."
+excerpt: "A solo entry to More than a Hack 2027, a football-data challenge by FC Barcelona's Barça Innovation Hub and Mobile World Capital Barcelona with Metrica Sports, that labels every frame of a match as home possession, away possession or dead ball. Rule evidence and a three-model temporal convolutional network ensemble, trained only on external matches, are decoded by an event-gated Viterbi pass; leave-one-match-out spellF1 is 0.759."
 short_title: "La Espada: ball possession from tracking data"
 collection: portfolio
 order: 6
 permalink: /portfolio/la-espada-possession
 ---
 
-**Links:** [Code and technical report](https://github.com/MAUK9086/La-Espada-More-than-a-Hack-2027) · More than a Hack 2027, Phase 1: Ball Possession (submitted November 2026; solo entry as team La Espada)
+**Links:** [Technical report (PDF)](https://github.com/MAUK9086/La-Espada-More-than-a-Hack-2027/blob/main/docs/report/La_Espada.pdf) · [Code](https://github.com/MAUK9086/La-Espada-More-than-a-Hack-2027) · More than a Hack 2027, Phase 1: Ball Possession, organised by FC Barcelona's Barça Innovation Hub and Mobile World Capital Barcelona with Metrica Sports (submitted November 2026; solo entry as team La Espada)
 
 Problem
 ------

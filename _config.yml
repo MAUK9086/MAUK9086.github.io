@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Mohammad Ahmadullah Khan"
 title_separator          : "-"
 name                     : &name "Mohammad Ahmadullah Khan"
-description              : &description "Academic homepage of Mohammad Ahmadullah Khan: machine learning research in reasoning, clinical ML, and federated learning"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Academic homepage of Mohammad Ahmadullah Khan: machine learning research on model evaluation, language models and clinical ML"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://mauk9086.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,9 +26,9 @@ author:
   avatar           : "profile.jpg"
   name             : "Mohammad Ahmadullah Khan"
   pronouns         : # example: "she/her"  
-  bio              : "Undergraduate researcher in machine learning. B.Tech Computer Engineering, Jamia Millia Islamia; B.S. Data Science, IIT Madras."
+  bio              : "Machine learning researcher. B.Tech Computer Engineering, Jamia Millia Islamia (2026); B.S. Data Science, IIT Madras (expected Dec 2026)."
   location         : "New Delhi, India"
-  employer         : "Jamia Millia Islamia"
+  employer         : "Institute of Liver and Biliary Sciences (ILBS)"
   uri              : # URL
   email            : "maukhan9086@gmail.com"
 

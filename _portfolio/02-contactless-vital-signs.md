@@ -17,9 +17,9 @@ Remote photoplethysmography (rPPG) recovers the blood-volume pulse from subtle c
 
 My work at ILBS
 ------
-- **Clinical data engineering:** a pipeline that merges and normalises longitudinal patient records from more than 10 heterogeneous clinical sources.
 - **Vital-sign estimation:** real-time HR, HRV and SpO2 estimation from webcam video using rPPG signal processing and computer vision.
-- **Systems:** low-latency inter-process communication and data-validation constraints, so concurrent telemetry streams are processed with transactional integrity.
+- **Non-contact body measurement:** three RGB-D cameras, YOLOv8 pose estimation, 3D reconstruction from depth and gradient boosting, evaluated with nested leave-one-out cross-validation and permutation tests on 89 patients. Height is estimated within 2.18 cm mean absolute error (r = 0.96); waist and hip reach r = 0.84 and 0.78. Neck circumference could not be measured because the chin occludes the throat from the camera.
+- **Retinal imaging:** a multimodal model that fuses a RETFound fundus-image encoder with clinical tabular data (missingness-aware tokens, bottleneck fusion transformer, two-stage training) to predict seven systemic conditions from retinal images.
 
 <img src="/images/placeholder-figure.png" alt="Figure forthcoming" width="70%">
 

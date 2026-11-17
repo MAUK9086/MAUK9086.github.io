@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an early-career machine learning researcher. I completed a B.Tech in Computer Engineering at [Jamia Millia Islamia](https://jmi.ac.in), New Delhi, in 2026, and I am finishing a B.S. in Data Science and Applications at the [Indian Institute of Technology Madras](https://study.iitm.ac.in/ds/) (expected December 2026). Since January 2026 I have been a Machine Learning Intern on the "Walk for Life" project at the [Institute of Liver and Biliary Sciences (ILBS)](https://www.ilbs.in), New Delhi, where I work on clinical data pipelines and contactless vital-sign estimation from video.
+I am an early-career machine learning researcher. I completed a B.Tech in Computer Engineering at [Jamia Millia Islamia](https://jmi.ac.in), New Delhi, in 2026, and I am finishing a B.S. in Data Science and Applications at the [Indian Institute of Technology Madras](https://study.iitm.ac.in/ds/) (expected December 2026). Since January 2026 I have been a Machine Learning Intern on the "Walk for Life" project at the [Institute of Liver and Biliary Sciences (ILBS)](https://www.ilbs.in), New Delhi, where I work on contactless vital-sign estimation from video, camera-based body measurement and multimodal models for retinal images.
 
 What I work on
 ======
@@ -23,7 +23,7 @@ Areas I have worked in
 
 News
 ======
-- **Nov 2026:** Submitted *Counting Clusters, Not Pairs* to the Apart Research Swarm Alignment Hackathon ([project](/portfolio/swarm-lineage)) and the La Espada possession model to More than a Hack 2027 by Metrica Sports and FC Barcelona ([project](/portfolio/la-espada-possession)).
+- **Nov 2026:** Submitted *Counting Clusters, Not Pairs* to the Apart Research Swarm Alignment sprint ([project](/portfolio/swarm-lineage)) and the La Espada possession model to More than a Hack 2027, a football-data challenge by FC Barcelona's Barça Innovation Hub and Mobile World Capital Barcelona with Metrica Sports ([project](/portfolio/la-espada-possession)).
 - **Oct 2026:** Released [Patch Sloth](/portfolio/patch-sloth)'s open second-opinion feed, covering the 58,457 CVEs that NIST has not analysed.
 - **Sep 2026:** Presented *"FIB-4 False Negatives in MASLD: Clinical Phenotypes and an Augmented Triage Model"* as an **oral presentation** at APASL STC 2026 (Kumamoto, Japan), and received the **APASL International Travel Award**.
 - **Jun 2026:** Completed the B.Tech in Computer Engineering at Jamia Millia Islamia (CGPA 8.70 / 10).
