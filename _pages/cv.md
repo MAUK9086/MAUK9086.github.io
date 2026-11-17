@@ -45,7 +45,7 @@ Honours and awards
 
 Teaching and leadership
 ======
-* **General Secretary**, IEEE Student Branch, Jamia Millia Islamia: 10+ workshops for 1,200+ students (Mar 2024 – present)
+* **General Secretary**, IEEE Student Branch, Jamia Millia Islamia: 10+ workshops for 1,200+ students (2024 – 2025)
 * **Co-instructor**, Introduction to Machine Learning workshop, W3B, Jamia Millia Islamia: 150+ students (Jan – Feb 2025)
 
 Research projects
