@@ -7,24 +7,30 @@ redirect_from:
   - /about.html
 ---
 
-I am an undergraduate researcher in machine learning. I hold a B.Tech in Computer Engineering from [Jamia Millia Islamia](https://jmi.ac.in), New Delhi (2022–2026), and I am completing a B.S. in Data Science and Applications at the [Indian Institute of Technology Madras](https://study.iitm.ac.in/ds/) (expected December 2026). Since January 2026 I have been a Machine Learning Intern on the "Walk for Life" project at the [Institute of Liver and Biliary Sciences (ILBS)](https://www.ilbs.in), New Delhi. There I work on clinical data pipelines and on contactless vital-sign estimation from video.
+I am an early-career machine learning researcher. I completed a B.Tech in Computer Engineering at [Jamia Millia Islamia](https://jmi.ac.in), New Delhi, in 2026, and I am finishing a B.S. in Data Science and Applications at the [Indian Institute of Technology Madras](https://study.iitm.ac.in/ds/) (expected December 2026). Since January 2026 I have been a Machine Learning Intern on the "Walk for Life" project at the [Institute of Liver and Biliary Sciences (ILBS)](https://www.ilbs.in), New Delhi, where I work on clinical data pipelines and contactless vital-sign estimation from video.
 
-My work asks a common question: **when does a model look right for the wrong reasons, and how can we measure it?** In language models, I study whether models reason over nested defeasible premises in an order-invariant way, and whether their correct answers rest on correct intermediate steps. In clinical ML, I study where established screening rules fail. One example is the FIB-4 index in obese patients with MASLD (metabolic dysfunction-associated steatotic liver disease), presented as an oral talk at APASL STC 2026. I also build research software, including [flwr-trees](https://pypi.org/project/flwr-trees/), a scikit-learn–compatible library for federated tree ensembles, and I contribute to scikit-learn and the wider scientific Python ecosystem.
-
-Research statement
+What I work on
 ======
-I want to build machine-learning systems whose success can be trusted for the right reasons. In both language models and clinical prediction, aggregate accuracy often hides systematic failure: a model can be accurate on average while relying on input order, surface cues, or a population it was not designed for. My goal is to develop evaluation methods that expose these failures, using controlled perturbations, subgroup analysis and step-level metrics. I also want to develop modelling approaches that remain reliable when they are deployed in clinical and other high-stakes settings. I am looking for research positions where I can pursue these questions with rigorous experimental design and real-world data.
+Most of my projects ask one question: **when does a model look right for the wrong reasons, and how can we measure it?** I answer it with controlled evaluations: perturbations that should not change the answer, test data that shifts over time, null models that keep the structure of the data, and checks for leakage. Where I can, the analysis is fixed before the results are seen, and results that do not hold up are reported as such. I have applied this to reasoning in language models, clinical screening rules, text written by AI agents, vulnerability scoring and football tracking data, and I am keen to take it to new problems.
 
-Research interests
+Areas I have worked in
 ======
-- **Reliable reasoning in language models:** order sensitivity, faithfulness of intermediate reasoning, evaluation design
-- **Clinical machine learning:** failure modes of clinical risk scores, interpretable models, population-level evaluation
-- **Privacy-preserving and federated learning:** communication-efficient aggregation for tree ensembles
-- **Physiological signal processing:** remote photoplethysmography (rPPG), heart-rate variability, EEG representation learning
+- **Language-model evaluation:** order sensitivity and step-level faithfulness in defeasible reasoning ([manuscript in preparation](/publication/2026-positional-bias-defeasible-reasoning)); content-only forensics on text written by agent swarms ([project](/portfolio/swarm-lineage)).
+- **Clinical machine learning:** where the FIB-4 fibrosis score fails in MASLD ([oral presentation, APASL STC 2026](/talks/2026-09-19-apasl-stc-2026-fib4)); clinical data pipelines and remote photoplethysmography at ILBS ([project](/portfolio/contactless-vital-signs)).
+- **Tabular and federated learning:** federated tree ensembles ([flwr-trees](/portfolio/flwr-trees)); which gradient-boosting hyperparameters matter, for scikit-learn ([analysis](/open-source/)); TabPFN and a fine-tuned LLM for vulnerability triage ([Patch Sloth](/portfolio/patch-sloth)).
+- **Signals and time series:** EEG representation learning ([Brain-to-Brain Decoder](/portfolio/dyadic-eeg-cebra)); frame-level ball possession from football tracking data ([La Espada](/portfolio/la-espada-possession)).
+- **Generative models:** Indian Sign Language video generation ([B.Tech thesis](/publication/2026-05-isl-video-generation-thesis)).
+
+Currently looking for
+======
+Research internships and research-assistant positions in machine learning, and research-engineer or machine-learning-engineer roles. I can start immediately.
 
 News
 ======
+- **Nov 2026:** Submitted *Counting Clusters, Not Pairs* to the Apart Research Swarm Alignment Hackathon ([project](/portfolio/swarm-lineage)) and the La Espada possession model to More than a Hack 2027 by Metrica Sports and FC Barcelona ([project](/portfolio/la-espada-possession)).
+- **Oct 2026:** Released [Patch Sloth](/portfolio/patch-sloth)'s open second-opinion feed, covering the 58,457 CVEs that NIST has not analysed.
 - **Sep 2026:** Presented *"FIB-4 False Negatives in MASLD: Clinical Phenotypes and an Augmented Triage Model"* as an **oral presentation** at APASL STC 2026 (Kumamoto, Japan), and received the **APASL International Travel Award**.
+- **Jun 2026:** Completed the B.Tech in Computer Engineering at Jamia Millia Islamia (CGPA 8.70 / 10).
 - **May 2026:** Released [flwr-trees 0.1.0](https://pypi.org/project/flwr-trees/) on PyPI.
 - **Apr 2026:** Pull requests merged into scikit-learn (FastICA performance, preprocessing validation fix) and scikit-bio (import-time reduction). See [Open Source](/open-source/).
 - **Jan 2026:** Joined the Institute of Liver and Biliary Sciences, New Delhi, as a Machine Learning Intern.
