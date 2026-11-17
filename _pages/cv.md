@@ -14,7 +14,7 @@ redirect_from:
 Education
 ======
 * **B.Tech in Computer Engineering**, Jamia Millia Islamia, New Delhi. Jul 2022 – Jun 2026. CGPA 8.70 / 10
-* **B.S. in Data Science and Applications**, Indian Institute of Technology Madras (online degree). Jan 2023 – Dec 2026 (expected). SGPA 7.67 / 10
+* **B.S. in Data Science and Applications**, Indian Institute of Technology Madras (online degree). Jan 2023 – present. SGPA 7.67 / 10
 
 Research experience
 ======

@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an early-career machine learning researcher. I completed a B.Tech in Computer Engineering at [Jamia Millia Islamia](https://jmi.ac.in), New Delhi, in 2026, and I am finishing a B.S. in Data Science and Applications at the [Indian Institute of Technology Madras](https://study.iitm.ac.in/ds/) (expected December 2026). Since January 2026 I have been a Machine Learning Intern on the "Walk for Life" project at the [Institute of Liver and Biliary Sciences (ILBS)](https://www.ilbs.in), New Delhi, where I work on contactless vital-sign estimation from video, camera-based body measurement and multimodal models for retinal images.
+I am an early-career machine learning researcher. I completed a B.Tech in Computer Engineering at [Jamia Millia Islamia](https://jmi.ac.in), New Delhi, in 2026, and I am also pursuing a B.S. in Data Science and Applications at the [Indian Institute of Technology Madras](https://study.iitm.ac.in/ds/). Since January 2026 I have been a Machine Learning Intern on the "Walk for Life" project at the [Institute of Liver and Biliary Sciences (ILBS)](https://www.ilbs.in), New Delhi, where I work on contactless vital-sign estimation from video, camera-based body measurement and multimodal models for retinal images.
 
 What I work on
 ======
@@ -34,7 +34,7 @@ News
 
 Education
 ======
-- **B.S. in Data Science and Applications**, Indian Institute of Technology Madras, 2023 – Dec 2026 (expected)
+- **B.S. in Data Science and Applications**, Indian Institute of Technology Madras, 2023 – present
 - **B.Tech in Computer Engineering**, Jamia Millia Islamia, New Delhi, 2022 – 2026. CGPA 8.70 / 10
 
 Selected honours
