@@ -2,7 +2,7 @@
 title: "Brain-to-Brain Decoder: Dyadic EEG Representation Learning with CEBRA"
 excerpt: "An independent study that learns joint neural embeddings of two people in conversation from hyperscanning EEG. A hybrid CEBRA embedding decodes affective condition with 0.967 k-NN accuracy, while label- and temporal-shuffle controls fall to chance. Includes a reproducible pipeline and a plan for scaling to multiple dyads."
 collection: portfolio
-order: 3
+order: 4
 permalink: /portfolio/dyadic-eeg-cebra
 ---
 

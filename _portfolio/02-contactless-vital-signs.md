@@ -2,7 +2,7 @@
 title: "Contactless Vital-Sign Estimation from Video (rPPG)"
 excerpt: "Estimating heart rate, heart-rate variability and SpO2 from an ordinary webcam using remote photoplethysmography, as part of the &ldquo;Walk for Life&rdquo; project at the Institute of Liver and Biliary Sciences, New Delhi (2026–present). Public prototypes: SerenePulse and an in-browser HRV dashboard."
 collection: portfolio
-order: 2
+order: 3
 permalink: /portfolio/contactless-vital-signs
 ---
 
