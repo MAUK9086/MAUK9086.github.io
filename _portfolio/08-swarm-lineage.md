@@ -1,6 +1,7 @@
 ---
 title: "Counting Clusters, Not Pairs: Evaluating Content-Only Forensics on Agent-Swarm Text"
 excerpt: "Can the text of near-duplicate posts written by AI agents show who copied whom? On 300,000 Moltbook posts and the collusion.wiki export, no standard copy-direction cue beat &ldquo;the longer text is later&rdquo;, and scoring pairs instead of clusters made methods with no real signal look significant in 86% of null draws."
+short_title: "Counting Clusters, Not Pairs: forensics on agent-swarm text"
 collection: portfolio
 order: 2
 permalink: /portfolio/swarm-lineage

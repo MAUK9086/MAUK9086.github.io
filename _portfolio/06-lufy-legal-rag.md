@@ -1,8 +1,9 @@
 ---
 title: "LUFY: Retrieval-Augmented Understanding of Legal Documents"
 excerpt: "A legal-document assistant that turns an uploaded contract into a plain-language summary, a three-tier clause risk analysis and citation-grounded Q&A in English and 16 Indian languages. Uses hybrid dense + BM25 retrieval with reciprocal rank fusion and structure-aware chunking."
+short_title: "LUFY: legal-document RAG"
 collection: portfolio
-order: 7
+order: 8
 permalink: /portfolio/lufy-legal-rag
 ---
 

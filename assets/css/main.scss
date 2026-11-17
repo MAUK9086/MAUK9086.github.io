@@ -37,3 +37,25 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+/* Research & Projects page: numbered contents list and numbered entries */
+.project-index {
+  columns: 2 22em;
+  column-gap: 2em;
+  margin: 1em 0 1.5em;
+  padding-left: 1.5em;
+  font-size: 0.9em;
+
+  li {
+    break-inside: avoid;
+    margin-bottom: 0.3em;
+  }
+}
+
+.archive__item-number {
+  color: var(--global-text-color-light);
+  font-weight: normal;
+}
+
+.archive__item[id^="project-"] {
+  scroll-margin-top: 90px; /* keep the fixed header from covering the title */
+}

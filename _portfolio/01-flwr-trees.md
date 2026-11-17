@@ -1,6 +1,7 @@
 ---
 title: "flwr-trees: Federated Learning for Tree Ensembles"
 excerpt: "An open-source Python library (on PyPI) that trains Random Forest, XGBoost and gradient-boosted tree models across clients using the Flower framework, behind a standard scikit-learn interface. Introduces histogram-based aggregation that cuts the first-round upload by 45–83% on benchmark datasets."
+short_title: "flwr-trees: federated tree ensembles"
 collection: portfolio
 order: 1
 permalink: /portfolio/flwr-trees

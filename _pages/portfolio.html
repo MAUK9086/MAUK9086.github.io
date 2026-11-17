@@ -10,6 +10,12 @@ author_profile: true
 <p>Research projects and research software, most recent and most substantial first. Each entry describes the problem, method, and results; code is linked where it is public.</p>
 
 {% assign items = site.portfolio | sort: "order" %}
+<ol class="project-index">
 {% for post in items %}
-  {% include archive-single.html %}
+  <li><a href="#project-{{ forloop.index }}">{{ post.short_title | default: post.title }}</a></li>
+{% endfor %}
+</ol>
+
+{% for post in items %}
+  {% include archive-single.html number=forloop.index %}
 {% endfor %}

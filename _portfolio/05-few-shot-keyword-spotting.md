@@ -1,8 +1,9 @@
 ---
 title: "Few-Shot, Language-Agnostic Keyword Spotting (Smart India Hackathon 2024)"
 excerpt: "Winning team, Smart India Hackathon 2024 Grand Finale, for a problem statement set by the National Technical Research Organisation (NTRO) on detecting user-defined spoken keywords in any language from only a few examples."
+short_title: "Few-shot keyword spotting (Smart India Hackathon 2024)"
 collection: portfolio
-order: 6
+order: 7
 permalink: /portfolio/few-shot-keyword-spotting
 ---
 

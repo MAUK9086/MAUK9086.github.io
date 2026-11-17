@@ -1,8 +1,9 @@
 ---
 title: "La Espada: Frame-Level Ball Possession from Football Tracking Data"
 excerpt: "A solo entry to More than a Hack 2027 (Metrica Sports &times; FC Barcelona) that labels every frame of a match as home possession, away possession or dead ball. Rule evidence and a three-model temporal convolutional network ensemble, trained only on external matches, are decoded by an event-gated Viterbi pass; leave-one-match-out spellF1 is 0.759."
+short_title: "La Espada: ball possession from tracking data"
 collection: portfolio
-order: 5
+order: 6
 permalink: /portfolio/la-espada-possession
 ---
 
