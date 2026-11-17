@@ -49,6 +49,8 @@ Research software and projects
 ======
 * **flwr-trees**: federated learning for Random Forest, XGBoost and gradient-boosted trees with a scikit-learn API, built on Flower. Published on [PyPI](https://pypi.org/project/flwr-trees/). [Details](/portfolio/flwr-trees)
 * **Brain-to-Brain Decoder: dyadic EEG representation learning with CEBRA** (independent study, 2026): joint embeddings of speaker and listener EEG; 0.967 k-NN decoding of affective condition, with chance-level shuffle controls. [Details](/portfolio/dyadic-eeg-cebra) · [Report (PDF)](/files/Brain_to_Brain_Decoder_Khan_2026.pdf)
+* **Counting Clusters, Not Pairs: evaluating content-only forensics on agent-swarm text** (Apart Research Swarm Alignment Hackathon, Nov 2026; sole author): pre-registered study on 300,000 Moltbook posts and the collusion.wiki export showing that pair-level scoring makes chance-level copy-direction methods look significant. [Details](/portfolio/swarm-lineage)
+* **La Espada: frame-level ball possession** (More than a Hack 2027, Metrica Sports × FC Barcelona, Nov 2026; solo entry): rules plus a TCN ensemble trained only on external matches, decoded by an event-gated Viterbi; leave-one-match-out spellF1 0.759. [Details](/portfolio/la-espada-possession)
 * **LUFY**: retrieval-augmented legal-document assistant (FastAPI, ChromaDB, BM25 + dense hybrid retrieval, Docker). [Details](/portfolio/lufy-legal-rag)
 
 Honours and awards

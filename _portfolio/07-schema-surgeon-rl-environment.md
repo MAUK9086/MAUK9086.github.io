@@ -2,7 +2,7 @@
 title: "Schema Surgeon: An RL Environment for Database Schema Migration"
 excerpt: "A reinforcement-learning environment, built on OpenEnv, in which an agent migrates a messy NoSQL collection to a target JSON schema through rename, cast, flatten and delete actions, with a dense reward and reproducible tasks of increasing difficulty."
 collection: portfolio
-order: 6
+order: 8
 permalink: /portfolio/schema-surgeon
 ---
 
