@@ -21,10 +21,6 @@ Areas I have worked in
 - **Signals and time series:** EEG representation learning ([Brain-to-Brain Decoder](/portfolio/dyadic-eeg-cebra)); frame-level ball possession from football tracking data ([La Espada](/portfolio/la-espada-possession)).
 - **Generative models:** Indian Sign Language video generation ([B.Tech thesis](/publication/2026-05-isl-video-generation-thesis)).
 
-Currently looking for
-======
-Research internships and research-assistant positions in machine learning, and research-engineer or machine-learning-engineer roles. I can start immediately.
-
 News
 ======
 - **Nov 2026:** Submitted *Counting Clusters, Not Pairs* to the Apart Research Swarm Alignment Hackathon ([project](/portfolio/swarm-lineage)) and the La Espada possession model to More than a Hack 2027 by Metrica Sports and FC Barcelona ([project](/portfolio/la-espada-possession)).
