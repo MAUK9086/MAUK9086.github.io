@@ -7,7 +7,7 @@ order: 2
 permalink: /portfolio/swarm-lineage
 ---
 
-**Links:** [Report (PDF)](https://github.com/MAUK9086/swarm-lineage/blob/main/report/Paradox_Counting_Clusters_Not_Pairs_Report.pdf) · [Code](https://github.com/MAUK9086/swarm-lineage) · Apart Research Swarm Alignment Hackathon, November 2026 (submitted; sole author)
+**Links:** [Code](https://github.com/MAUK9086/swarm-lineage) · Apart Research Swarm Alignment sprint, November 2026 (submitted; sole author)
 
 Question
 ------
