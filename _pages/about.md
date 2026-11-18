@@ -45,4 +45,4 @@ Selected honours
 - Winner, HackJMI 2024
 - Qualified, National Standard Examination in Physics (NSEP) 2021; qualified JEE Advanced 2021
 
-A full CV is available [here](/cv/) ([PDF](/files/Mohammad_Ahmadullah_Khan_CV.pdf)).
+My full CV is available as a [PDF](/files/Mohammad_Ahmadullah_Khan_CV.pdf){:target="_blank" rel="noopener"}.

@@ -7,7 +7,7 @@ order: 2
 permalink: /portfolio/swarm-lineage
 ---
 
-**Links:** [Report (PDF)](/files/Counting_Clusters_Not_Pairs_Khan_2026.pdf) · [Code](https://github.com/MAUK9086/swarm-lineage) · Apart Research Swarm Alignment sprint, November 2026 (submitted; sole author)
+**Links:** [Report (PDF)](/files/Counting_Clusters_Not_Pairs_Khan_2026.pdf) · [Code](https://github.com/MAUK9086/swarm-lineage) · Apart Research Swarm Alignment sprint, November 2026 (sole author; selected by Apart Research for its funder showcase on grantmaking.ai and invited to apply to Apart Studio)
 
 Question
 ------
