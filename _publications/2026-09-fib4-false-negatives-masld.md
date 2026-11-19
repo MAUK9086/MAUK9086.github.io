@@ -10,9 +10,10 @@ slidesurl: '/files/APASL_STC2026_FP5-2_slides.pdf'
 citation: 'M. A. Khan. (2026). &quot;FIB-4 False Negatives in MASLD: Clinical Phenotypes and an Augmented Triage Model.&quot; Oral presentation FP5-2 (Abstract No. 10340), <i>APASL Single Topic Conference 2026</i>, Kumamoto, Japan.'
 ---
 
+**Links:** [Slides (PDF)](/files/APASL_STC2026_FP5-2_slides.pdf){:target="_blank" rel="noopener"} · [Code (GitHub)](https://github.com/MAUK9086/masld-fib4){:target="_blank" rel="noopener"}
+
 **Oral presentation** in Free Papers 5-1: MASLD/ALD 1, Saturday 19 September 2026, Kumamoto, Japan. **Recipient of the APASL STC 2026 Kumamoto International Travel Award.**
 Affiliation: BS Degree Program in Data Science and Applications, Indian Institute of Technology Madras.
-[Slides (PDF)](/files/APASL_STC2026_FP5-2_slides.pdf) · [Code](https://github.com/MAUK9086/malsd_fib4)
 
 <img src="/images/apasl-oral-presentation.jpg" alt="Presenting talk FP5-2 at APASL STC 2026 Kumamoto" width="100%">
 
